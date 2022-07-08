@@ -1,0 +1,31 @@
+.wikipedia-container{
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.wikipedia-container img {
+    height: 400px;
+}
+
+.wikipedia-container p {
+    font-size: 24px;
+    color: grey;
+}
+
+nav {
+    background-color: grey;
+}
+
+nav a{
+    color: white;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
