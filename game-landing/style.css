@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.container {
+    padding: 0 120px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url('./img/Group\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    gap: 35px;
+}
+
+.header__menu-item {
+    transition: 0.5s;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+.header__menu-item:hover {
+    transition: 0.5s;
+    color: #FFB548;
+    cursor: pointer;
+}
+
+.header__social {
+    display: flex;
+    gap: 17px;
+}
+
+.header__text {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    align-self: center;
+}
+
+.header__text h1 {
+    margin: 10px;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.header__text h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+button {
+    margin: 20px;
+    border: none;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 55px;
+}
+
+.header__scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__scroll h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.header__scroll img {
+    width: 20px;
+    height: 10px;
+}
