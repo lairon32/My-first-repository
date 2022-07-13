@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto' sans-serif;
+}
+
+.container {
+    padding: 0 160px;
+    height: 100vh;
+    background-image: url('./img/background\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 47px;
+    width: 160px;
+    background-image: url(./img/Logo.png);
+    background-repeat: no-repeat;
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.header__contacts a {
+    color: white;
+    text-decoration: none;
+}
+
+.card__wrapper {
+    padding: 50px 0;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card p {
+    color: white;
+}
+
+.card img {
+    width: 300px;
+    height: 220px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
