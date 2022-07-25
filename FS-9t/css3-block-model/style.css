@@ -1,0 +1,17 @@
+h1 {
+    margin: 50px;
+    border: 10px solid black;
+    padding: 50px;
+    transition: 1s;
+    color:white;
+}
+
+h1:hover {
+    transition: 1s;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: red;
+}

@@ -33,6 +33,7 @@ body {
 .header__contacts a {
     color: white;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .card__wrapper {
@@ -45,17 +46,52 @@ body {
 }
 
 .card {
+    display: flex;
     text-align: center;
     flex-direction: column;
-    justify-content: center;
     gap: 20px;
+    transition: 0.5s;
 }
+
+.header__logo:hover {
+    transition: 0.5s;
+    background-image: url(./img/Logo-hover.png);
+}
+
+.header__contacts a:hover {
+    transition: 0.5s;
+    color: #F26522;
+
+}
+
+.card:hover p {
+    transition: 0.5s;
+    color: #F26522;
+}
+
+.card::after {
+    content: "";
+    width: 300px;
+    height: 220px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.card:hover::after {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
 
 .card p {
     color: white;
 }
 
 .card img {
+    position: relative;
     width: 300px;
     height: 220px;
 }
